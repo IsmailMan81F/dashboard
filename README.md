@@ -62,6 +62,8 @@ Reportr uses an HTTP REST API to track events. Datas are always JSON encoded.
 | reportr.alert | Triggered when an alert is triggered | `<string>type`, `<string>eventName` |
 
 
+
+
 ## Configuration
 
 Reportr is configured using environment variables.
