@@ -98,6 +98,8 @@ Visualizations accept templates as most of rendering options. Template are proce
 
 - `$.date(date)`: returns a beautiful date
 
+
+
 ## Alerts
 
 Reportr lets you configure alerts to be triggered when specific condition is valid at a specific interval.
