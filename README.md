@@ -112,6 +112,8 @@ Reportr lets you configure alerts to be triggered when specific condition is val
 | mail | Send an email notification | `<string>MAIL_SERVICE`, `<string>MAIL_USERNAME`, `<string>MAIL_PASSWORD`, `<string>MAIL_FROM` |
 | sms | Send a text message notification | `<string>TWILIO_SID`, `<string>TWILIO_TOKEN`, `<string>TWILIO_FROM` |
 
+
+
 #### Condition
 
 Condition for alerts are really easy to write, for example: `COUNT > 9`, this condition will be valid if at least 10 events have been posted in the alert interval. Conditions can also use the event object, for example: `event.temperature > 80`.
