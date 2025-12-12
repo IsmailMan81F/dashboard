@@ -1,7 +1,6 @@
 Reportr
 =========
 
-
 > "Your life's personal dashboard."
 
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
@@ -62,8 +61,6 @@ Reportr uses an HTTP REST API to track events. Datas are always JSON encoded.
 | reportr.alert | Triggered when an alert is triggered | `<string>type`, `<string>eventName` |
 
 
-
-
 ## Configuration
 
 Reportr is configured using environment variables.
@@ -102,7 +99,6 @@ Visualizations accept templates as most of rendering options. Template are proce
 - `$.date(date)`: returns a beautiful date
 
 
-
 ## Alerts
 
 Reportr lets you configure alerts to be triggered when specific condition is valid at a specific interval.
@@ -114,7 +110,6 @@ Reportr lets you configure alerts to be triggered when specific condition is val
 | webhook | Post an HTTP request to a specific url with the data encoded in the body | |
 | mail | Send an email notification | `<string>MAIL_SERVICE`, `<string>MAIL_USERNAME`, `<string>MAIL_PASSWORD`, `<string>MAIL_FROM` |
 | sms | Send a text message notification | `<string>TWILIO_SID`, `<string>TWILIO_TOKEN`, `<string>TWILIO_FROM` |
-
 
 
 #### Condition
